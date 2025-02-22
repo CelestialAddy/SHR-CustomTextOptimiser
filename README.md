@@ -4,6 +4,8 @@
 # SHR-CustomTextOptimiser
 A command-line Python utility that optimises *The Simpsons: Hit & Run* plain-text/CustomText-format/".ini" textbibles in various mostly optional ways, all of which are supported by the mod launcher. Freely open for reuse and such, whatever. Made for fun/jokes.
 
+![The tool in use.](Screenshot.png)
+
 ## Optimisation methods
 (Note that as few or as many of these can be used in one run as desired.)
 - **Scrub**
