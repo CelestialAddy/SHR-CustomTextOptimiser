@@ -18,10 +18,10 @@ A command-line Python utility that optimises *The Simpsons: Hit & Run* plain-tex
 	- CustomText variables are supported in the mod launcher starting at version 1.23.8.
 - **LF**
 	- Converts Windows "CRLF" (2-byte) newlines to Unix LF (1-byte) newlines.
-	- Saves one byte per-newline, of the textbible used CRLF previously.
+	- Saves one byte per-newline, if the textbible used CRLF previously.
 - **UTF-8**
 	- Encodes the textbible as UTF-8, using only 1 byte per ASCII character.
-	- Can save quite a bit if a lot of the text uses ASCII characters.
+	- Can save quite a bit if a lot of the text uses ASCII characters, and the file was UTF-16-encoded previously.
 - **Wipe**
 	- Removes strings that are listed in "UnusedStrings.txt" (one per-line) as being unused/worthless.
 	- This file is not filled with anything by default.
